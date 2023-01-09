@@ -1,12 +1,14 @@
-# # [BUG] Spellqueue doesnt work if heroic strike is queued. 
+# # [BUG] Spellqueue doesnt work if heroic strike or Cleave is queued. 
 
 ### 1. Current Behavior
   #### 1.1. Description
-The way that spellqueue currrently works for warriors, is that as long as HS is not queued you can queue up your next ability correctly. However once HS is queued you are unable to do so. Resulting in no spellqueue window, which increases delay on abilities and therefore lowering dps. 
+The way that spellqueue currrently works for warriors, is that as long as HS/cleave is not queued you can queue up your next ability correctly. However once HS is queued you are unable to do so. Resulting in no spellqueue window, which increases delay on abilities and therefore lowering dps. 
 This forces the warrior to spam abilities to counter some of the delay, but it will still result in some delay depending on human factors and your own latency. 
 
-There has also been other mentions of this.
+Display of it not working
+https://streamable.com/38p7j6
 https://streamable.com/g8kbue
+There has also been other mentions of this.
 https://us.forums.blizzard.com/en/wow/t/this-bug-is-one-of-the-reasons-why-fury-warriors-are-so-bad-at-the-moment/1408439
 https://us.forums.blizzard.com/en/wow/t/warrior-spell-queue-not-working/1421625
 
@@ -15,7 +17,7 @@ https://us.forums.blizzard.com/en/wow/t/warrior-spell-queue-not-working/1421625
      
            1. First ensure that your spellqueuewindow is set to default (400) 
            2. Gain full rage
-           3. Attack a dummy and queue a HS when your main hand hit the target
+           3. Attack a dummy and queue a HS/cleave when your main hand hit the target
            4. Press a GCD ability (Ex: Bloodthirst)
            5. Once GCD timer is below 0.4s press a different GCD ability before HS goes off
            6. This will result in second GCD ability not being cast
@@ -30,6 +32,9 @@ https://us.forums.blizzard.com/en/wow/t/warrior-spell-queue-not-working/1421625
   
 https://www.youtube.com/watch?v=l--e74c9v48&t=21s
 
+Video of Cleave showing the same bug
+https://streamable.com/38p7j6
+
 ### 2. Expected Behavior
   #### 2.1. Description
 The spell queue functions as a system for lag mitigation, allowing users to queue an ability while waiting for GCD cooldown to come off. This removes the local delay and system delay one would typically get. The spellqueue window can be set from 0-400, and 400 is the default that most players are using. The spellqueue window timing can be found using:
@@ -38,7 +43,7 @@ The spell queue functions as a system for lag mitigation, allowing users to queu
 ```
 It is a system that benefits everyone, as no matter how good your system is you will always have different degree's of delay. 
 
-The expected behaviour is therefore that when you use a GCD ability, while having HS queued, you would expect that you could queue up your next ability and it would cast. However if HS is queued while this happens, it does not work, forcing you to spam buttons and experience delay in your casts. Resulting in a decent dps loss. 
+The expected behaviour is therefore that when you use a GCD ability, while having HS queued, you would expect that you could queue up your next ability and it would cast. However if HS/cleave is queued while this happens, it does not work, forcing you to spam buttons and experience delay in your casts. Resulting in a decent dps loss. 
 
 Older videos seem to display that it was not a bug back then, but as video quality is bad, and the systems generally had more latency it can be hard to determine.
 
