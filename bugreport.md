@@ -20,13 +20,14 @@ https://us.forums.blizzard.com/en/wow/t/warrior-spell-queue-not-working/1421625
   #### 1.2. How to Reproduce
   To reproduce it does requires you to attempt several times, as we are talking about a small window of where you can queue your ability and therefore it is not always transparent when you are using the spellqueue system.
      
-           1. First ensure that your spellqueuewindow is set to default (400) 
-           2. Gain full rage
-           3. Attack a dummy and queue a HS/cleave when your main hand hit the target
-           4. Press a GCD ability (Ex: Bloodthirst)
-           5. Once GCD timer is below 0.4s press a different GCD ability before HS goes off
-           6. This will result in second GCD ability not being cast
-           7. Same can be repeated without HS, where second GCD ability will cast}
+       1. Ensure that spellqueuewindow is set to the default value of 400 
+       2. Gain a full rage bar.
+       3. Attack a dummy and use Heroic Strike (or Cleave) right after your main hand has struck the target~.
+       4. Use an ability that's on the GCD, for example Bloodthirst.
+       5. Once the GCD cooldown timer is below the spellqueuwindow (400ms in this example) press another ability on the GCD, whirlwind.
+       6. Once the GCD cooldown is over, the next ability should be cast, but it doesnt.
+       7. Repeat this process without using Heroic Strike (or Cleave) and notice how Whirlwind does fire.
+      
   #### 1.3  Source Material
   The red bar is the GCD of the ability and I am casting BT and WW.
   https://streamable.com/1warwp
