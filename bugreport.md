@@ -5,11 +5,16 @@
 The way that spellqueue currrently works for warriors, is that as long as HS/cleave is not queued you can queue up your next ability correctly. However once HS is queued you are unable to do so. Resulting in no spellqueue window, which increases delay on abilities and therefore lowering dps. 
 This forces the warrior to spam abilities to counter some of the delay, but it will still result in some delay depending on human factors and your own latency. 
 
-Display of it not working
+Display of it not working.
+
 https://streamable.com/38p7j6
+
 https://streamable.com/g8kbue
+
 There has also been other mentions of this.
+
 https://us.forums.blizzard.com/en/wow/t/this-bug-is-one-of-the-reasons-why-fury-warriors-are-so-bad-at-the-moment/1408439
+
 https://us.forums.blizzard.com/en/wow/t/warrior-spell-queue-not-working/1421625
 
   #### 1.2. How to Reproduce
@@ -25,9 +30,13 @@ https://us.forums.blizzard.com/en/wow/t/warrior-spell-queue-not-working/1421625
   #### 1.3  Source Material
   The red bar is the GCD of the ability and I am casting BT and WW.
   https://streamable.com/1warwp
+  
   https://streamable.com/shr169
+  
   https://streamable.com/90hpo4
+  
   Here we see it working without HS
+  
   https://streamable.com/g8kbue
   
 https://www.youtube.com/watch?v=l--e74c9v48&t=21s
@@ -49,6 +58,9 @@ Older videos seem to display that it was not a bug back then, but as video quali
 
   #### 2.2 Source Material
   http://thedefiantguild.com/forums/discussion/15431.html
+  
   https://streamable.com/g8kbue
+  
   https://www.youtube.com/watch?v=OQwT1gYSDVk&t=50s
+  
   https://youtu.be/jQxQ7TJQJQg
